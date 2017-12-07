@@ -15,8 +15,6 @@ steps:
 - task: Xcode@4
   inputs:
     xcWorkspacePath: "xcode7ObjectiveC/xcode7ObjectiveC.xcodeproj/project.xcworkspace"
-    scheme: "$(Parameters.scheme)"
-    xcodeVersion: "$(Parameters.xcodeVersion)"
     outputPattern: "$(agent.builddirectory)/output/$(SDK)/$(Configuration)"
 
 - task: CopyFiles@2
