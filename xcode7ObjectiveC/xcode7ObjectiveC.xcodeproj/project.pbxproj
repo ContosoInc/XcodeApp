@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dastahel.xcode7ObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -434,7 +434,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = xcode7ObjectiveC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveC;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dastahel.xcode7ObjectiveC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -445,7 +445,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dastahel.xcode7ObjectiveCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -457,7 +457,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = xcode7ObjectiveCTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dastahel.xcode7ObjectiveCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode7ObjectiveC.app/xcode7ObjectiveC";
 			};
@@ -468,7 +468,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dastahel.xcode7ObjectiveCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
@@ -479,7 +479,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = xcode7ObjectiveCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.mgtest.xcode7ObjectiveCUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.dstahel.xcode7ObjectiveCUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = xcode7ObjectiveC;
 			};
