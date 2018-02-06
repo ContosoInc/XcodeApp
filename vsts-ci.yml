@@ -3,14 +3,14 @@ queue:
   demands: xcode
 
 steps:
-- task: InstallAppleCertificate@1
-  inputs:
-    certSecureFile: "f1170e51-3d6f-42b2-aae2-d02137281714"
-    certPwd: "$(P12password)"
+#- task: InstallAppleCertificate@1
+#  inputs:
+#    certSecureFile: "f1170e51-3d6f-42b2-aae2-d02137281714"
+#    certPwd: "$(P12password)"
 
-- task: InstallAppleProvisioningProfile@1
-  inputs:
-    provProfileSecureFile: "851af618-cea8-4d5e-ac80-d77132059519"
+#- task: InstallAppleProvisioningProfile@1
+#  inputs:
+#    provProfileSecureFile: "851af618-cea8-4d5e-ac80-d77132059519"
 
 - task: Xcode@4
   inputs:
